@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    min-width: 359px;
+}
+
+.mainNav {
+    display: none;
+}
+
+.logo {
+    width: 122px;
+    height: 76px;
+    left: 27px;
+    top: 26px;
+
+    border: 6px solid #FFFFFF;
+    border-radius: 17px;
+    display: inline-block;
+    position: absolute;
+}
+
+.header {
+    width: 100%;
+    height: 144px;
+    background-color: #011827;
+}
+
+.welcomeImage {
+    width: 100%;
+    height: auto;
+}
+
+.escLogo {
+    position: absolute;
+    left: 6px;
+    top: 44px;
+}
+
+.mainTitel {
+    color: white;
+    display: inline-block;
+    width: 78px;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 180px;
+    padding-top: 25px;
+    margin: 0;
+    line-height: 28.13px;
+}
+
+.fejkButton {
+    position: relative;
+    float: right;
+    right: 71px;
+    top: 34px;
+    height: 26px;
+    display: inline-block;
+}
+
+.line1,
+.line2,
+.line3 {
+    position: absolute;
+}
+
+.line2 {
+    padding-top: 12px;
+}
+
+.line3 {
+    padding-top: 24px;
+}
+
+.blueButton,
+.blueButton2 {
+    background-color: #8ACFE6;
+    text-align: center;
+    width: 64.17%;
+    height: 66px;
+    border-radius: 4px;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    display: block;
+    position: relative;
+    top: 5.1vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.blueButton2 {
+    top: 41vh;
+}
+
+.redButton,
+.redButton2,
+.redButton3 {
+    background-color: #e3170a;
+    text-align: center;
+    width: 64.17%;
+    height: 66px;
+    border-radius: 4px;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 0;
+    color: #FFFFFF;
+}
+
+.redButton {
+    width: 179.28px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 18.75px;
+    margin-left: 148.93px;
+    margin-bottom: 12px;
+}
+
+.redButton2,
+.redButton3 {
+    position: relative;
+    top: 3.5vh;
+}
+
+.onlineChallenges,
+.onlineChallenges2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    width: 27%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 8.87vh;
+    color: #36769D;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.onlineChallenges2 {
+    top: 45.5vh;
+}
+
+.review2 {
+    display: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.review {
+    height: 19%;
+    width: 90.5%;
+    position: relative;
+    top: 136px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.review img,
+.review2 img {
+    float: left;
+}
+
+.comment {
+    position: relative;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 28.13px;
+    width: 78.5%;
+    display: inline-block;
+    left: 22.4px;
+}
+
+.commentAuthor {
+    font-size: 18px;
+    font-style: normal;
+    line-height: 21.09px;
+    font-weight: 400;
+    position: relative;
+}
+
+.popularChallengesTitle {
+    position: relative;
+    text-align: center;
+    width: 90%;
+    top: 33vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.popularChallenges {
+    position: relative;
+    top: 35vh;
+    display: flex;
+    padding: 0 33px;
+    overflow-x: scroll;
+}
+
+.test,
+.testing1,
+.testing2 {
+    height: 446px;
+    width: 363px;
+    margin: 0 19px;
+}
+
+.description {
+    padding: 0 17px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.rating {
+    display: inline-block;
+}
+
+.rating img {
+    padding: 0 4px;
+}
+
+.participants {
+    padding-left: 10px;
+}
+
+.roomImage {
+    display: block;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.roomTitle {
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-top: 12px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.roomDescription {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+}
+
+.test2 {
+    position: relative;
+    top: 53.7vh;
+    width: 100%;
+    height: 500px;
+    background-color: #011827;
+}
+
+.test2 p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 95px;
+    margin: 0;
+}
+
+.blackButton {
+    background-color: transparent;
+    text-align: center;
+    width: 64.17%;
+    height: 66px;
+    border-radius: 4px;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 700;
+    font-family: "Roboto";
+    border: 2px solid #8ACFE5;
+    color: #8ACFE5;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 343px;
+    left: 0;
+    right: 0;
+}
+
+.randomImage {
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+
+.playWithFriends {
+    width: 90%;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.5px;
+
+}
+
+.playWithFriendsText {
+    position: relative;
+    width: 90%;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 400;
+}
+
+.someImage {
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+
+.oneLine {
+    position: relative;
+    top: 53.8vh;
+}
+
+.section,
+.section1 {
+    position: relative;
+    width: 90%;
+    height: 58.3vh;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.playOnline {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.5px;
+}
+
+.playOnlineText {
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 400;
+}
+
+.footer {
+    position: relative;
+    top: 53.2vh;
+    background-color: #011827;
+    color: #FFFFFF;
+    height: 78.6vh;
+    padding-top: 64px;
+    padding-left: 21px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.spaceInFooter {
+    padding-bottom: 22px;
+}
+
+.footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer p {
+    margin-top: 7px;
+    margin-bottom: 40px;
+}
+
+.footer span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.footer ul {
+    padding: 0;
+    margin-top: 7px;
+    list-style: none;
+    margin-bottom: 47px;
+}
+
+
+@media screen and (min-width: 850px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .header {
+        height: 216px;
+    }
+
+    .mainTitel {
+        width: 50%;
+        font-size: 40px;
+        padding: 0;
+        position: relative;
+        left: 182px;
+        top: 74px;
+    }
+
+    .fejkButton {
+        display: none;
+    }
+
+    .mainNav {
+        display: block;
+        background-color: #011827;
+        position: relative;
+        height: 24px;
+        top: 116px;
+        font-size: 24px;
+        padding-bottom: 22px;
+    }
+
+    .mainNav ul {
+        list-style: none;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .mainNav li {
+        display: inline;
+        padding: 0 4.45%;
+    }
+
+    .mainNav a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
+
+    .mainNav a:hover {
+        color: #8ACFE5;
+    }
+
+    .welcomeImage {
+        content: url(image_2.png);
+        display: block;
+        position: relative;
+    }
+
+    .buttons,
+    .buttons1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        position: relative;
+        top: -33px;
+
+    }
+
+    .onlineChallenges,
+    .onlineChallenges2 {
+        background-color: #e3170a;
+        text-align: center;
+        width: 24%;
+        height: 47px;
+        border-radius: 4px;
+        font-size: 24px;
+        line-height: 28.13px;
+        font-weight: 700;
+        font-family: "Roboto";
+        border: 0;
+        color: #FFFFFF;
+        padding-top: 19px;
+        text-decoration: none;
+        top: 0;
+        margin: 0;
+        margin-right: 8.5px;
+    }
+
+    .blueButton,
+    .blueButton2 {
+        top: 0;
+        width: 24%;
+        margin: 0;
+        margin-left: 8.5px;
+    }
+
+    .reviews {
+        position: relative;
+        top: 75px;
+        height: 141px;
+        margin: auto;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .review {
+        display: inline-block;
+        width: 520px;
+        height: 100%;
+        top: 0;
+    }
+
+    .review2 {
+        display: inline-block;
+        width: 522px;
+        height: 100%;
+        left: 21px;
+    }
+
+    .review p {
+        padding-left: 16.46px;
+    }
+
+    .review2 p {
+        width: 426px;
+        left: 16.89px;
+    }
+
+    .review img,
+    .review2 img {
+        padding-top: 3px;
+        height: 95px;
+        width: 95px;
+        float: left;
+    }
+
+    .comment {
+        height: 139px;
+        left: 0;
+    }
+
+    .commentAuthor {
+        font-size: 18px;
+        width: 70%;
+        font-weight: 400;
+        display: inline-block;
+        top: 17px;
+    }
+
+    .popularChallengesTitle {
+        top: 183px;
+        margin: auto;
+        font-size: 36px;
+    }
+
+    .popularChallenges {
+        top: 270px;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    .test,
+    .testing1,
+    .testing2 {
+        margin: 0 21px;
+    }
+
+    .buttons1 {
+        top: 350px;
+    }
+
+    .test2 {
+        top: 437px;
+    }
+
+    .test2 p {
+        width: 49.3%;
+        margin: auto;
+        padding-top: 123px;
+    }
+
+    .blackButton {
+        bottom: 142px;
+        width: 24%;
+    }
+
+    .randomImage {
+        height: 460px;
+        width: 50%;
+        display: inline-block;
+    }
+
+    .section1 {
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        height: 460px;
+        left: 50%;
+        top: -465px;
+        display: inline-block;
+    }
+
+    .section1 p,
+    .section p {
+        width: 65%;
+        margin-bottom: 0;
+        padding-left: 116px;
+    }
+
+    .section1 h1,
+    .section h1 {
+        width: 65%;
+    }
+
+    .redButton2,
+    .redButton3 {
+        margin-left: 116px;
+        width: 48.1%;
+    }
+
+    .someImage {
+        top: 0;
+        width: 50%;
+        left: 50%;
+        height: 460px;
+    }
+
+    .section {
+        padding: 0;
+        top: -524px;
+        width: 50%;
+        margin: 0;
+        height: 460px;
+    }
+
+    .playOnline {
+        margin-top: 60px;
+        margin-bottom: 25px;
+    }
+
+    .playWithFriends,
+    .playOnline {
+        padding-top: 60px;
+        padding-left: 116px;
+    }
+
+    .oneLine {
+        top: 437px;
+        display: inline-block;
+        height: 460px;
+    }
+
+    .footer {
+        top: 620px;
+        height: 467px;
+        width: 100%;
+        padding: 0;
+        display: flex;
+    }
+
+    .about {
+        width: 32.5%;
+        padding-top: 146px;
+        margin-left: 108px;
+    }
+
+    .siteMap {
+        padding-top: 146px;
+        padding-left: 232px;
+    }
+
+    .contact {
+        padding-top: 146px;
+        padding-left: 216px;
+    }
+
+}
