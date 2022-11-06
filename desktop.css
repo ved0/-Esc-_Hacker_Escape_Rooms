@@ -134,10 +134,9 @@
         left: 16.89px;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1075px) {
 
-        .review1 img,
-        .review2 img {
+        .commentImage {
             padding-top: 3px;
             height: 95px;
             width: 95px;
