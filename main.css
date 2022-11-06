@@ -32,12 +32,14 @@ body {
 }
 
 .welcomeImage {
+    content: url(image2.png);
     width: 100%;
     height: auto;
 }
 
 .escLogo {
     position: absolute;
+    content: url(Esc.png);
     left: 6px;
     top: 44px;
 }
@@ -67,6 +69,7 @@ body {
 .line2,
 .line3 {
     position: absolute;
+    content: url(Line.png);
 }
 
 .line2 {
@@ -164,7 +167,7 @@ body {
     right: 0;
 }
 
-.review {
+.review1 {
     height: 19%;
     width: 90.5%;
     position: relative;
@@ -175,7 +178,7 @@ body {
     right: 0;
 }
 
-.review img,
+.review1 img,
 .review2 img {
     float: left;
 }
@@ -219,9 +222,9 @@ body {
     overflow-x: scroll;
 }
 
-.test,
-.testing1,
-.testing2 {
+.challenge1,
+.challenge2,
+.challenge3 {
     height: 446px;
     width: 363px;
     margin: 0 19px;
@@ -266,7 +269,7 @@ body {
     line-height: 21.09px;
 }
 
-.test2 {
+.blackSection {
     position: relative;
     top: 53.7vh;
     width: 100%;
@@ -274,7 +277,7 @@ body {
     background-color: #011827;
 }
 
-.test2 p {
+.blackSection p {
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
@@ -331,13 +334,13 @@ body {
     width: 100%;
 }
 
-.oneLine {
+.sameRow {
     position: relative;
     top: 53.8vh;
 }
 
-.section,
-.section1 {
+.section1,
+.section2 {
     position: relative;
     width: 90%;
     height: 58.3vh;
@@ -388,10 +391,12 @@ body {
     margin-bottom: 40px;
 }
 
-.footer span {
+h3 {
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
+    margin-top: 0;
+    margin-bottom: 0px;
 }
 
 .footer ul {
@@ -463,8 +468,8 @@ body {
         position: relative;
     }
 
-    .buttons,
-    .buttons1 {
+    .buttonsRow1,
+    .buttonsRow2 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -513,7 +518,7 @@ body {
         line-height: 28px;
     }
 
-    .review {
+    .review1 {
         display: inline-block;
         width: 520px;
         height: 100%;
@@ -527,7 +532,7 @@ body {
         left: 21px;
     }
 
-    .review p {
+    .review1 p {
         padding-left: 16.46px;
     }
 
@@ -536,7 +541,7 @@ body {
         left: 16.89px;
     }
 
-    .review img,
+    .review1 img,
     .review2 img {
         padding-top: 3px;
         height: 95px;
@@ -569,21 +574,21 @@ body {
         overflow-x: hidden;
     }
 
-    .test,
-    .testing1,
-    .testing2 {
+    .challenge1,
+    .challenge2,
+    .challenge3 {
         margin: 0 21px;
     }
 
-    .buttons1 {
+    .buttonsRow2 {
         top: 350px;
     }
 
-    .test2 {
+    .blackSection {
         top: 437px;
     }
 
-    .test2 p {
+    .blackSection p {
         width: 49.3%;
         margin: auto;
         padding-top: 123px;
@@ -611,14 +616,14 @@ body {
     }
 
     .section1 p,
-    .section p {
+    .section2 p {
         width: 65%;
         margin-bottom: 0;
         padding-left: 116px;
     }
 
     .section1 h1,
-    .section h1 {
+    .section2 h1 {
         width: 65%;
     }
 
@@ -635,7 +640,7 @@ body {
         height: 460px;
     }
 
-    .section {
+    .section2 {
         padding: 0;
         top: -524px;
         width: 50%;
@@ -654,7 +659,7 @@ body {
         padding-left: 116px;
     }
 
-    .oneLine {
+    .sameRow {
         top: 437px;
         display: inline-block;
         height: 460px;
@@ -684,4 +689,7 @@ body {
         padding-left: 216px;
     }
 
+    .participants {
+        padding-left: 98px;
+    }
 }
