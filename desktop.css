@@ -103,6 +103,7 @@
         top: 75px;
         height: 141px;
         margin: auto;
+        width: 84.547%;
         font-style: italic;
         font-weight: 400;
         font-size: 24px;
@@ -111,16 +112,16 @@
 
     .review1 {
         display: inline-block;
-        width: 520px;
+        width: 48.919%;
         height: 100%;
         top: 0;
     }
 
     .review2 {
         display: inline-block;
-        width: 522px;
+        width: 49.107%;
         height: 100%;
-        left: 21px;
+        left: 1.77%;
     }
 
     .review1 p {
@@ -128,8 +129,7 @@
     }
 
     .review2 p {
-        width: 426px;
-        left: 16.89px;
+        padding-left: 16.89px;
     }
 
     .review1 img,
@@ -177,6 +177,7 @@
 
     .blackSection {
         top: 437px;
+        width: 100%;
     }
 
     .blackSection p {
@@ -252,6 +253,7 @@
 
     .sameRow {
         top: 437px;
+        width: 100%;
         display: inline-block;
         height: 460px;
     }
