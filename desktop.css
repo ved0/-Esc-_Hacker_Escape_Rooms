@@ -1,4 +1,4 @@
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 910px) {
     body {
         display: flex;
         flex-direction: column;
@@ -125,19 +125,24 @@
     }
 
     .review1 p {
-        padding-left: 16.46px;
+        left: 16.46px;
+        width: 78.373%;
     }
 
     .review2 p {
-        padding-left: 16.89px;
+        width: 78.6%;
+        left: 16.89px;
     }
 
-    .review1 img,
-    .review2 img {
-        padding-top: 3px;
-        height: 95px;
-        width: 95px;
-        float: left;
+    @media screen and (min-width: 1280px) {
+
+        .review1 img,
+        .review2 img {
+            padding-top: 3px;
+            height: 95px;
+            width: 95px;
+            float: left;
+        }
     }
 
     .comment {
@@ -161,8 +166,14 @@
 
     .popularChallenges {
         top: 270px;
-        margin: auto;
-        overflow-x: hidden;
+    }
+
+    @media screen and (min-width: 1280px) {
+        .popularChallenges {
+            top: 270px;
+            margin: auto;
+            overflow-x: hidden;
+        }
     }
 
     .challenge1,
