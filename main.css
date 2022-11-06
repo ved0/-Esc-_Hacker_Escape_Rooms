@@ -178,9 +178,9 @@ body {
     right: 0;
 }
 
-.review1 img,
-.review2 img {
+.commentImage {
     float: left;
+    content: url(image_3.png);
 }
 
 .comment {
