@@ -183,6 +183,13 @@ body {
     content: url(image_3.png);
 }
 
+@media screen and (max-width: 380px) {
+    .commentImage {
+        height: 62px;
+        width: 64px;
+    }
+}
+
 .comment {
     position: relative;
     margin: 0;
@@ -195,12 +202,24 @@ body {
     left: 22.4px;
 }
 
+@media screen and (max-width: 420px) {
+    .comment {
+        font-size: 20px;
+    }
+}
+
 .commentAuthor {
     font-size: 18px;
     font-style: normal;
     line-height: 21.09px;
     font-weight: 400;
     position: relative;
+}
+
+@media screen and (max-width: 420px) {
+    .commentAuthor {
+        font-size: 14px;
+    }
 }
 
 .popularChallengesTitle {
@@ -345,9 +364,20 @@ body {
     height: 70.7%;
 }
 
+.main {
+    min-height: 3100px;
+}
+
 .sameRow2 {
     position: relative;
+    height: 70.7%;
     top: 53.7vh;
+}
+
+@media screen and (max-height: 699px) {
+    .sameRow2 {
+        top: 400px;
+    }
 }
 
 .section1,
@@ -380,7 +410,7 @@ body {
     top: 53.2vh;
     background-color: #011827;
     color: #FFFFFF;
-    height: 78.6vh;
+    height: 535px;
     padding-top: 64px;
     padding-left: 21px;
     font-size: 18px;
