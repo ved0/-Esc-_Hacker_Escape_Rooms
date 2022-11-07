@@ -339,9 +339,15 @@ body {
     width: 100%;
 }
 
-.sameRow {
+.sameRow1 {
     position: relative;
-    top: 53.8vh;
+    top: 53.7vh;
+    height: 70.7%;
+}
+
+.sameRow2 {
+    position: relative;
+    top: 53.7vh;
 }
 
 .section1,
