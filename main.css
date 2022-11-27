@@ -11,6 +11,98 @@ body {
 
 .mainNav {
     display: none;
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.5s;
+}
+
+.mainNav.open {
+    display: block;
+    position: fixed;
+    top: 0em;
+    bottom: 0em;
+    left: 0em;
+    right: 0em;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1000;
+    font-size: 2.25em;
+    font-weight: 700;
+
+    animation: milkyscreen 0.2s 0.2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes milkyscreen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.mainNav.open ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #011827;
+    top: 0.5em;
+    bottom: 0.5em;
+    left: 0.5em;
+    right: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 1em;
+    position: absolute;
+    top: 0.5em;
+    bottom: 0.5em;
+    left: 0.5em;
+    right: 0.5em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    animation: sideMenuReveal 0.4s 0.2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes sideMenuReveal {
+    from {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.0);
+    }
+}
+
+
+.mainNav.open ul :last-child {
+    margin-bottom: 0;
+}
+
+.mainNav.open a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.mainNav.open li {
+    margin-bottom: 1.5em;
+}
+
+.mainNav.open div {
+    animation: buttonFadeIn 0.4s 0.2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes buttonFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .logo {
@@ -24,6 +116,7 @@ body {
     display: inline-block;
     position: absolute;
 }
+
 
 .header {
     width: 100%;
@@ -56,13 +149,19 @@ body {
     line-height: 28.13px;
 }
 
-.fejkButton {
+.menuButton {
     position: relative;
     float: right;
-    right: 71px;
+    right: 25px;
+    width: 51px;
     top: 34px;
-    height: 26px;
+    height: 30px;
     display: inline-block;
+}
+
+.menuButtonLines {
+    right: 0.5em;
+    top: 0.75em;
 }
 
 .line1,
@@ -79,6 +178,7 @@ body {
 .line3 {
     padding-top: 24px;
 }
+
 
 .blueButton,
 .blueButton2 {

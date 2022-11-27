@@ -18,7 +18,7 @@
         top: 74px;
     }
 
-    .fejkButton {
+    .menuButton {
         display: none;
     }
 
@@ -269,13 +269,13 @@
         top: 437px;
         height: 460px;
     }
-    
+
     .sameRow2 {
         position: relative;
         top: 437px;
         height: 460px;
     }
-    
+
     .footer {
         top: 23.8vh;
         height: 467px;
